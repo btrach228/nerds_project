@@ -1,0 +1,353 @@
+.nav-item-shop {
+  border-bottom: 0.17em solid red !important;
+}
+
+.slogan-item {
+  font-family: Roboto-regullar;
+  font-size: 55px;
+  line-height: 32px;
+}
+
+.arrow__down {
+  opacity: 0.4;
+}
+
+.filters {
+  /* background: url("/white-paper-with-grid-line-pattern-for-background-close-up_64749-1499.jpg");
+  background-size: contain; */
+  font-family: Roboto-regullar;
+}
+
+.types__block {
+  margin-bottom: 40px;
+}
+
+.types__block h4 {
+  margin-bottom: 10px;
+}
+
+.types__block li {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.show-btn {
+  width: 100%;
+  text-decoration: none;
+  background-color: #f3f2f2 !important;
+  text-align: center;
+  color: #000;
+  font-family: Roboto-regullar;
+  cursor: pointer;
+  border: none;
+}
+.show-btn:hover {
+  background-color: #dfdfdf !important;
+}
+
+.index-button-active {
+  background-color: #d5d5d5;
+  opacity: 0.8;
+}
+.features {
+  margin-bottom: 50px;
+}
+
+.features h4 {
+  margin-bottom: 10px;
+}
+
+.features li {
+  margin: 1px 20px 12px 0;
+  list-style: none;
+}
+
+.main-content-shop {
+  width: 88%;
+  padding: 35px 80px;
+  display: flex;
+  /* ? */
+}
+
+/* main content */
+
+.sort {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Roboto-regullar;
+}
+
+.sort__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.sort__list li {
+  font-family: Roboto-regullar;
+}
+
+.sort__item {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.makets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.maket {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 10px 0 33px 0;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Параметры тени */
+  overflow: hidden;
+}
+
+.appear-info {
+  position: absolute;
+  background-color: #eeeeee;
+  width: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  text-align: center;
+  left: -1000px;
+  bottom: 0;
+}
+
+.maket:hover .appear-info {
+  opacity: 1;
+  left: 0;
+}
+
+.appear-info h3 {
+  font-family: Roboto-regullar;
+
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  margin-top: 33px;
+  margin-bottom: 23px;
+  text-transform: uppercase;
+}
+.appear-info p {
+  font-family: Roboto-regullar;
+
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.appear-info button {
+  border: none;
+  padding: 15px 80px;
+  margin-bottom: 20px;
+}
+
+.content-shop {
+  margin-left: 120px;
+}
+
+/* buttons-pages */
+
+.pages-list {
+  display: flex;
+  margin-left: -6px;
+}
+
+.pages-list li {
+  list-style: none;
+  padding: 10px;
+  background-color: #eee;
+  margin-left: 5px;
+}
+
+.pages-list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-family: Roboto-regullar;
+}
+
+.pages-list li:hover {
+  background-color: #dfdfdf !important;
+}
+
+.pages-btn-active {
+  background-color: #d5d5d5;
+  opacity: 0.8;
+}
+/* radio and checkbox */
+
+/* radio */
+.radio__input {
+  position: absolute;
+
+  appearance: none;
+}
+
+.radio_check {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background-image: url("/Users/apple/Desktop/nerds/media/radio-off.jpg");
+  opacity: 0.6;
+  background-size: contain;
+  left: 80px;
+  cursor: pointer;
+}
+
+.radio__input:checked + .radio_check {
+  background-image: url("/Users/apple/Desktop/nerds/media/radio-on.jpg");
+  opacity: 0.9;
+}
+.radio__input:disabled + .radio_check {
+  opacity: 0.3;
+}
+
+/* checkbox */
+
+.list-value-checkbox label {
+  margin-left: 20px !important;
+}
+
+.check__box {
+  position: absolute;
+
+  appearance: none;
+}
+
+.checkbox {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background-image: url("/Users/apple/Desktop/nerds/media/checkbox-off.jpg");
+  opacity: 0.7;
+  background-size: contain;
+  left: 80px;
+  cursor: pointer;
+}
+
+.check__box:checked + .checkbox {
+  background-image: url("/Users/apple/Desktop/nerds/media/checkbox-on.jpg");
+  opacity: 1;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+}
+
+.check__box:disabled + .checkbox {
+  opacity: 0.5;
+}
+
+/* range */
+
+.filter-price__slider {
+  background-color: salmon;
+}
+
+.filter-price__inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.filter-price__label {
+  display: flex;
+  align-items: center;
+  width: 93px;
+  height: 40px;
+}
+.filter-price__input {
+  border: none;
+  background-color: #eeeeee;
+  padding: 10px 20px;
+  font-family: Roboto-bold;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  color: #666;
+}
+.filter-span__text {
+  font-size: 14px;
+  color: #283136;
+  font-family: Roboto-bold;
+
+  margin: 10px 15px;
+  text-transform: uppercase;
+}
+
+.noUi-connect {
+  background-color: #00ca74 !important;
+}
+
+.filter-price__slider {
+  background-color: #d7dcde !important;
+  border: none !important;
+  border-radius: 100px;
+  box-shadow: none !important;
+  height: 0.15em !important    ;
+  width: 95%;
+  margin-left: 120px;
+}
+
+.filter-price__slider {
+  margin: 25px 0;
+}
+
+.noUi-handle::after {
+  display: none !important;
+}
+
+.noUi-handle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 4px !important;
+  width: 4px !important;
+  background: #ababab !important;
+  border-radius: 50%;
+  left: 8px !important;
+  top: 8px !important;
+}
+
+.noUi-handle {
+  border-radius: 90% !important;
+  background: #fff;
+  cursor: default;
+  box-shadow: none;
+  border: none;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 22px !important;
+  height: 22px !important;
+  top: -9px !important;
+}
+
+.overflow-slider {
+  background-color: #eee;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+}
+
+.filter-price__title {
+  margin-bottom: 50px;
+}
